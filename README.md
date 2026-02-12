@@ -1,6 +1,6 @@
 # Data Source Validator
 
-A lightweight Streamlit application designed to test the technical viability of external data feeds. This tool allows developers and data stakeholders to quickly validate public APIs against core integration criteria before committing to full-scale engineering. Website link is [https://data-tracker-potion.streamlit.app/](https://data-tracker-potion.streamlit.app/)
+A lightweight Streamlit application designed to test the technical viability of external data feeds. This tool allows developers and data stakeholders to quickly validate public APIs against core integration criteria before committing to full-scale engineering. Website link is [https://data-tracker.streamlit.app/](https://data-tracker.streamlit.app/)
 
 ## 🎯 Objective
 
