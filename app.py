@@ -118,10 +118,33 @@ def main():
     elif st.session_state.data_payload is not None:
         df = st.session_state.data_payload
         label = st.session_state.data_label
-        
+
         if not df.empty:
             st.success(f"✅ Loaded: {label}")
-            
+
+            # Download Options
+            col1, col2 = st.columns([1, 4])
+            with col1:
+                # CSV Download
+                csv_data = df.to_csv(index=False).encode('utf-8')
+                st.download_button(
+                    label="📥 Download CSV",
+                    data=csv_data,
+                    file_name=f"{label.replace(' ', '_')}.csv",
+                    mime="text/csv",
+                    use_container_width=True
+                )
+            with col2:
+                # JSON Download
+                json_data = df.to_json(orient='records', indent=2).encode('utf-8')
+                st.download_button(
+                    label="📥 Download JSON",
+                    data=json_data,
+                    file_name=f"{label.replace(' ', '_')}.json",
+                    mime="application/json",
+                    use_container_width=True
+                )
+
             # 1. Inspector
             selected_df = render_data_inspector(df)
             
