@@ -1,0 +1,1804 @@
+{
+  "metadata": {
+    "group": "House Price Index Per State",
+    "dataset_name": "All States",
+    "source_type": "fred",
+    "dataset_id": "per_state",
+    "start_year": 1995,
+    "end_year": 2026,
+    "state_count": 51
+  },
+  "totals": {
+    "ok": 1581,
+    "error": 51
+  },
+  "errors": [
+    {
+      "state": "Alabama",
+      "state_slug": "alabama",
+      "series_id": "ALSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ALSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Alaska",
+      "state_slug": "alaska",
+      "series_id": "AKSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=AKSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Arizona",
+      "state_slug": "arizona",
+      "series_id": "AZSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=AZSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Arkansas",
+      "state_slug": "arkansas",
+      "series_id": "ARSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ARSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "California",
+      "state_slug": "california",
+      "series_id": "CASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=CASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Colorado",
+      "state_slug": "colorado",
+      "series_id": "COSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=COSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Connecticut",
+      "state_slug": "connecticut",
+      "series_id": "CTSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=CTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Delaware",
+      "state_slug": "delaware",
+      "series_id": "DESTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=DESTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "District of Columbia",
+      "state_slug": "district_of_columbia",
+      "series_id": "DCSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=DCSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Florida",
+      "state_slug": "florida",
+      "series_id": "FLSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=FLSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Georgia",
+      "state_slug": "georgia",
+      "series_id": "GASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=GASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Hawaii",
+      "state_slug": "hawaii",
+      "series_id": "HISTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=HISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Idaho",
+      "state_slug": "idaho",
+      "series_id": "IDSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=IDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Illinois",
+      "state_slug": "illinois",
+      "series_id": "ILSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ILSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Indiana",
+      "state_slug": "indiana",
+      "series_id": "INSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=INSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Iowa",
+      "state_slug": "iowa",
+      "series_id": "IASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=IASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Kansas",
+      "state_slug": "kansas",
+      "series_id": "KSSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=KSSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Kentucky",
+      "state_slug": "kentucky",
+      "series_id": "KYSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=KYSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Louisiana",
+      "state_slug": "louisiana",
+      "series_id": "LASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=LASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Maine",
+      "state_slug": "maine",
+      "series_id": "MESTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MESTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Maryland",
+      "state_slug": "maryland",
+      "series_id": "MDSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Massachusetts",
+      "state_slug": "massachusetts",
+      "series_id": "MASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Michigan",
+      "state_slug": "michigan",
+      "series_id": "MISTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Minnesota",
+      "state_slug": "minnesota",
+      "series_id": "MNSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MNSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Mississippi",
+      "state_slug": "mississippi",
+      "series_id": "MSSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MSSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Missouri",
+      "state_slug": "missouri",
+      "series_id": "MOSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MOSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Montana",
+      "state_slug": "montana",
+      "series_id": "MTSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Nebraska",
+      "state_slug": "nebraska",
+      "series_id": "NESTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NESTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Nevada",
+      "state_slug": "nevada",
+      "series_id": "NVSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NVSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "New Hampshire",
+      "state_slug": "new_hampshire",
+      "series_id": "NHSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NHSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "New Jersey",
+      "state_slug": "new_jersey",
+      "series_id": "NJSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NJSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "New Mexico",
+      "state_slug": "new_mexico",
+      "series_id": "NMSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NMSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "New York",
+      "state_slug": "new_york",
+      "series_id": "NYSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NYSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "North Carolina",
+      "state_slug": "north_carolina",
+      "series_id": "NCSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NCSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "North Dakota",
+      "state_slug": "north_dakota",
+      "series_id": "NDSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Ohio",
+      "state_slug": "ohio",
+      "series_id": "OHSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=OHSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Oklahoma",
+      "state_slug": "oklahoma",
+      "series_id": "OKSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=OKSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Oregon",
+      "state_slug": "oregon",
+      "series_id": "ORSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ORSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "series_id": "PASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=PASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Rhode Island",
+      "state_slug": "rhode_island",
+      "series_id": "RISTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=RISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "South Carolina",
+      "state_slug": "south_carolina",
+      "series_id": "SCSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=SCSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "South Dakota",
+      "state_slug": "south_dakota",
+      "series_id": "SDSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=SDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Tennessee",
+      "state_slug": "tennessee",
+      "series_id": "TNSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=TNSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Texas",
+      "state_slug": "texas",
+      "series_id": "TXSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=TXSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Utah",
+      "state_slug": "utah",
+      "series_id": "UTSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=UTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Vermont",
+      "state_slug": "vermont",
+      "series_id": "VTSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=VTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Virginia",
+      "state_slug": "virginia",
+      "series_id": "VASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=VASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Washington",
+      "state_slug": "washington",
+      "series_id": "WASTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "West Virginia",
+      "state_slug": "west_virginia",
+      "series_id": "WVSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WVSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Wisconsin",
+      "state_slug": "wisconsin",
+      "series_id": "WISTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    },
+    {
+      "state": "Wyoming",
+      "state_slug": "wyoming",
+      "series_id": "WYSTHPI",
+      "year": 2026,
+      "error_type": "no_data_in_range",
+      "recommended_action": "accept_or_change_time_range",
+      "message": "Request succeeded but the API returned no data for this year.",
+      "request": {
+        "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WYSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+        "status_code": 200
+      }
+    }
+  ],
+  "states": [
+    {
+      "state_name": "Alabama",
+      "state_slug": "alabama",
+      "series_id": "ALSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/alabama/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ALSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Alaska",
+      "state_slug": "alaska",
+      "series_id": "AKSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/alaska/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=AKSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Arizona",
+      "state_slug": "arizona",
+      "series_id": "AZSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/arizona/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=AZSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Arkansas",
+      "state_slug": "arkansas",
+      "series_id": "ARSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/arkansas/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ARSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "California",
+      "state_slug": "california",
+      "series_id": "CASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/california/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=CASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Colorado",
+      "state_slug": "colorado",
+      "series_id": "COSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/colorado/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=COSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Connecticut",
+      "state_slug": "connecticut",
+      "series_id": "CTSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/connecticut/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=CTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Delaware",
+      "state_slug": "delaware",
+      "series_id": "DESTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/delaware/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=DESTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "District of Columbia",
+      "state_slug": "district_of_columbia",
+      "series_id": "DCSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/district_of_columbia/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=DCSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Florida",
+      "state_slug": "florida",
+      "series_id": "FLSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/florida/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=FLSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Georgia",
+      "state_slug": "georgia",
+      "series_id": "GASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/georgia/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=GASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Hawaii",
+      "state_slug": "hawaii",
+      "series_id": "HISTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/hawaii/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=HISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Idaho",
+      "state_slug": "idaho",
+      "series_id": "IDSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/idaho/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=IDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Illinois",
+      "state_slug": "illinois",
+      "series_id": "ILSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/illinois/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ILSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Indiana",
+      "state_slug": "indiana",
+      "series_id": "INSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/indiana/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=INSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Iowa",
+      "state_slug": "iowa",
+      "series_id": "IASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/iowa/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=IASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Kansas",
+      "state_slug": "kansas",
+      "series_id": "KSSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/kansas/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=KSSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Kentucky",
+      "state_slug": "kentucky",
+      "series_id": "KYSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/kentucky/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=KYSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Louisiana",
+      "state_slug": "louisiana",
+      "series_id": "LASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/louisiana/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=LASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Maine",
+      "state_slug": "maine",
+      "series_id": "MESTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/maine/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MESTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Maryland",
+      "state_slug": "maryland",
+      "series_id": "MDSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/maryland/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Massachusetts",
+      "state_slug": "massachusetts",
+      "series_id": "MASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/massachusetts/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Michigan",
+      "state_slug": "michigan",
+      "series_id": "MISTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/michigan/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Minnesota",
+      "state_slug": "minnesota",
+      "series_id": "MNSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/minnesota/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MNSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Mississippi",
+      "state_slug": "mississippi",
+      "series_id": "MSSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/mississippi/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MSSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Missouri",
+      "state_slug": "missouri",
+      "series_id": "MOSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/missouri/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MOSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Montana",
+      "state_slug": "montana",
+      "series_id": "MTSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/montana/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=MTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Nebraska",
+      "state_slug": "nebraska",
+      "series_id": "NESTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/nebraska/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NESTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Nevada",
+      "state_slug": "nevada",
+      "series_id": "NVSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/nevada/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NVSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "New Hampshire",
+      "state_slug": "new_hampshire",
+      "series_id": "NHSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/new_hampshire/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NHSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "New Jersey",
+      "state_slug": "new_jersey",
+      "series_id": "NJSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/new_jersey/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NJSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "New Mexico",
+      "state_slug": "new_mexico",
+      "series_id": "NMSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/new_mexico/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NMSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "New York",
+      "state_slug": "new_york",
+      "series_id": "NYSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/new_york/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NYSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "North Carolina",
+      "state_slug": "north_carolina",
+      "series_id": "NCSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/north_carolina/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NCSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "North Dakota",
+      "state_slug": "north_dakota",
+      "series_id": "NDSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/north_dakota/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=NDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Ohio",
+      "state_slug": "ohio",
+      "series_id": "OHSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/ohio/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=OHSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Oklahoma",
+      "state_slug": "oklahoma",
+      "series_id": "OKSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/oklahoma/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=OKSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Oregon",
+      "state_slug": "oregon",
+      "series_id": "ORSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/oregon/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=ORSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Pennsylvania",
+      "state_slug": "pennsylvania",
+      "series_id": "PASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/pennsylvania/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=PASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Rhode Island",
+      "state_slug": "rhode_island",
+      "series_id": "RISTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/rhode_island/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=RISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "South Carolina",
+      "state_slug": "south_carolina",
+      "series_id": "SCSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/south_carolina/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=SCSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "South Dakota",
+      "state_slug": "south_dakota",
+      "series_id": "SDSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/south_dakota/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=SDSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Tennessee",
+      "state_slug": "tennessee",
+      "series_id": "TNSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/tennessee/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=TNSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Texas",
+      "state_slug": "texas",
+      "series_id": "TXSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/texas/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=TXSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Utah",
+      "state_slug": "utah",
+      "series_id": "UTSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/utah/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=UTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Vermont",
+      "state_slug": "vermont",
+      "series_id": "VTSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/vermont/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=VTSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Virginia",
+      "state_slug": "virginia",
+      "series_id": "VASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/virginia/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=VASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Washington",
+      "state_slug": "washington",
+      "series_id": "WASTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/washington/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WASTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "West Virginia",
+      "state_slug": "west_virginia",
+      "series_id": "WVSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/west_virginia/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WVSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Wisconsin",
+      "state_slug": "wisconsin",
+      "series_id": "WISTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/wisconsin/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WISTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    },
+    {
+      "state_name": "Wyoming",
+      "state_slug": "wyoming",
+      "series_id": "WYSTHPI",
+      "summary_path": "data/raw_json/house_price_index_per_state/wyoming/_summary.json",
+      "totals": {
+        "ok": 31,
+        "error": 1
+      },
+      "errors": [
+        {
+          "year": 2026,
+          "error_type": "no_data_in_range",
+          "recommended_action": "accept_or_change_time_range",
+          "message": "Request succeeded but the API returned no data for this year.",
+          "request": {
+            "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WYSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+            "status_code": 200
+          }
+        }
+      ]
+    }
+  ]
+}

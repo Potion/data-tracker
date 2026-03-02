@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "group": "House Price Index Per State",
+    "dataset_name": "All States",
+    "source_type": "fred",
+    "dataset_id": "per_state",
+    "start_year": 1995,
+    "end_year": 2026,
+    "state_count": 51,
+    "state_name": "West Virginia",
+    "state_slug": "west_virginia",
+    "series_id": "WVSTHPI"
+  },
+  "year": 2026,
+  "request": {
+    "url": "https://api.stlouisfed.org/fred/series/observations?series_id=WVSTHPI&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2026-01-01&observation_end=2026-12-31",
+    "status_code": 200
+  },
+  "status": "error",
+  "error_type": "no_data_in_range",
+  "recommended_action": "accept_or_change_time_range",
+  "message": "Request succeeded but the API returned no data for this year.",
+  "response": {
+    "realtime_start": "2026-03-02",
+    "realtime_end": "2026-03-02",
+    "observation_start": "2026-01-01",
+    "observation_end": "2026-12-31",
+    "units": "lin",
+    "output_type": 1,
+    "file_type": "json",
+    "order_by": "observation_date",
+    "sort_order": "asc",
+    "count": 0,
+    "offset": 0,
+    "limit": 100000,
+    "observations": []
+  }
+}
