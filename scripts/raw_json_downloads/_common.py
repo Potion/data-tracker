@@ -31,6 +31,60 @@ RATE_LIMIT_SECONDS = {
 }
 _LAST_REQUEST_TS: dict[str, float] = {}
 
+HOUSE_PRICE_INDEX_STATE_SERIES: dict[str, str] = {
+    "Alabama": "ALSTHPI",
+    "Alaska": "AKSTHPI",
+    "Arizona": "AZSTHPI",
+    "Arkansas": "ARSTHPI",
+    "California": "CASTHPI",
+    "Colorado": "COSTHPI",
+    "Connecticut": "CTSTHPI",
+    "Delaware": "DESTHPI",
+    "District of Columbia": "DCSTHPI",
+    "Florida": "FLSTHPI",
+    "Georgia": "GASTHPI",
+    "Hawaii": "HISTHPI",
+    "Idaho": "IDSTHPI",
+    "Illinois": "ILSTHPI",
+    "Indiana": "INSTHPI",
+    "Iowa": "IASTHPI",
+    "Kansas": "KSSTHPI",
+    "Kentucky": "KYSTHPI",
+    "Louisiana": "LASTHPI",
+    "Maine": "MESTHPI",
+    "Maryland": "MDSTHPI",
+    "Massachusetts": "MASTHPI",
+    "Michigan": "MISTHPI",
+    "Minnesota": "MNSTHPI",
+    "Mississippi": "MSSTHPI",
+    "Missouri": "MOSTHPI",
+    "Montana": "MTSTHPI",
+    "Nebraska": "NESTHPI",
+    "Nevada": "NVSTHPI",
+    "New Hampshire": "NHSTHPI",
+    "New Jersey": "NJSTHPI",
+    "New Mexico": "NMSTHPI",
+    "New York": "NYSTHPI",
+    "North Carolina": "NCSTHPI",
+    "North Dakota": "NDSTHPI",
+    "Ohio": "OHSTHPI",
+    "Oklahoma": "OKSTHPI",
+    "Oregon": "ORSTHPI",
+    "Pennsylvania": "PASTHPI",
+    "Rhode Island": "RISTHPI",
+    "South Carolina": "SCSTHPI",
+    "South Dakota": "SDSTHPI",
+    "Tennessee": "TNSTHPI",
+    "Texas": "TXSTHPI",
+    "Utah": "UTSTHPI",
+    "Vermont": "VTSTHPI",
+    "Virginia": "VASTHPI",
+    "Washington": "WASTHPI",
+    "West Virginia": "WVSTHPI",
+    "Wisconsin": "WISTHPI",
+    "Wyoming": "WYSTHPI",
+}
+
 
 class RetryableRequestError(Exception):
     def __init__(self, message: str, status_code: int | None = None):
@@ -490,3 +544,124 @@ def download_dataset(group: str, dataset_name: str, source_type: str, dataset_id
     print(f"Summary: {summary_path}")
 
     return summary
+
+
+def download_house_price_index_per_state(
+    group: str = "House Price Index Per State",
+    dataset_name: str = "All States",
+) -> dict[str, Any]:
+    base_dir = Path("data") / "raw_json" / "house_price_index_per_state"
+    metadata = {
+        "group": group,
+        "dataset_name": dataset_name,
+        "source_type": "fred",
+        "dataset_id": "per_state",
+        "start_year": START_YEAR,
+        "end_year": END_YEAR,
+        "state_count": len(HOUSE_PRICE_INDEX_STATE_SERIES),
+    }
+
+    aggregate_summary: dict[str, Any] = {
+        "metadata": metadata,
+        "totals": {"ok": 0, "error": 0},
+        "errors": [],
+        "states": [],
+    }
+
+    print(f"Downloading {dataset_name} (fred) from {START_YEAR} to {END_YEAR}")
+    session = requests.Session()
+
+    for state_name, series_id in HOUSE_PRICE_INDEX_STATE_SERIES.items():
+        state_slug = _slugify(state_name)
+        state_dir = base_dir / state_slug
+        state_meta = {
+            **metadata,
+            "state_name": state_name,
+            "state_slug": state_slug,
+            "series_id": series_id,
+        }
+        state_summary: dict[str, Any] = {
+            "metadata": state_meta,
+            "totals": {"ok": 0, "error": 0},
+            "errors": [],
+            "years": [],
+        }
+
+        print(f"  {state_name} ({series_id})")
+        for year in range(START_YEAR, END_YEAR + 1):
+            payload: Any = None
+            request_meta: dict[str, Any] = {}
+            status_code: int | None = None
+            captured_error: Exception | None = None
+
+            try:
+                payload, request_meta, status_code = _fred_request(session, series_id, year)
+            except Exception as exc:
+                captured_error = exc
+
+            result = _classify_result("fred", status_code, payload, captured_error)
+            year_path = state_dir / f"{year}.json"
+            _write_json(
+                year_path,
+                {
+                    "metadata": state_meta,
+                    "year": year,
+                    "request": request_meta,
+                    "status": result["status"],
+                    "error_type": result["error_type"],
+                    "recommended_action": result["recommended_action"],
+                    "message": result["message"],
+                    "response": payload,
+                },
+            )
+
+            if result["status"] == "ok":
+                state_summary["totals"]["ok"] += 1
+                aggregate_summary["totals"]["ok"] += 1
+            else:
+                state_summary["totals"]["error"] += 1
+                aggregate_summary["totals"]["error"] += 1
+                error_entry = {
+                    "year": year,
+                    "error_type": result["error_type"],
+                    "recommended_action": result["recommended_action"],
+                    "message": result["message"],
+                    "request": request_meta,
+                }
+                state_summary["errors"].append(error_entry)
+                aggregate_summary["errors"].append(
+                    {
+                        "state": state_name,
+                        "state_slug": state_slug,
+                        "series_id": series_id,
+                        **error_entry,
+                    }
+                )
+
+            state_summary["years"].append(
+                {
+                    "year": year,
+                    "status": result["status"],
+                    "error_type": result["error_type"],
+                    "recommended_action": result["recommended_action"],
+                }
+            )
+
+        state_summary_path = state_dir / "_summary.json"
+        _write_json(state_summary_path, state_summary)
+        aggregate_summary["states"].append(
+            {
+                "state_name": state_name,
+                "state_slug": state_slug,
+                "series_id": series_id,
+                "summary_path": str(state_summary_path),
+                "totals": state_summary["totals"],
+                "errors": state_summary["errors"],
+            }
+        )
+        print(f"    Summary: {state_summary_path}")
+
+    aggregate_summary_path = base_dir / "_summary.json"
+    _write_json(aggregate_summary_path, aggregate_summary)
+    print(f"Summary: {aggregate_summary_path}")
+    return aggregate_summary
