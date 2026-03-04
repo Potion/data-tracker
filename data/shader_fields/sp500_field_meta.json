@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-03-04T04:41:36.784342Z",
+  "source": {
+    "mode": "dir",
+    "input_dir": "data/raw_json/35_years_s_p_500_daily",
+    "json_file_count": 32
+  },
+  "selected_candidate": {
+    "id": "c0",
+    "path": "$.observations",
+    "source_kind": "array-objects",
+    "time_key": "date",
+    "value_key": "value",
+    "points": 2515,
+    "score": 2515.0
+  },
+  "series": {
+    "sample_count": 2515,
+    "time_start": "2016-02-16T00:00:00Z",
+    "time_end": "2026-02-13T00:00:00Z",
+    "value_min_raw": 1895.5799560546875,
+    "value_max_raw": 6978.60009765625
+  },
+  "settings": {
+    "mode": "both",
+    "format": "tiff-f16",
+    "normalize": "minmax",
+    "resample": "none",
+    "field_type": "distance",
+    "height": 1080,
+    "value_domain": {
+      "min": 1793.3342651367188,
+      "max": 7148.646936035157
+    },
+    "distance_radius_px": 24.0,
+    "sigma_px": 6.0,
+    "thickness_px": 2,
+    "flip_y": true
+  },
+  "outputs": {
+    "texture_1d": "data/shader_fields/sp500_field_1d_f16.tiff",
+    "texture_2d": "data/shader_fields/sp500_field_2d_field_f16.tiff"
+  },
+  "candidate_count": 1,
+  "candidate_preview": [
+    {
+      "id": "c0",
+      "score": 2515.0,
+      "points": 2515,
+      "path": "$.observations",
+      "time_key": "date",
+      "value_key": "value"
+    }
+  ]
+}

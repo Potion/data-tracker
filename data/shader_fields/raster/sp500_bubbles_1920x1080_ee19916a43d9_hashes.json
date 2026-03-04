@@ -1,0 +1,15 @@
+{
+  "build_signature": "ee19916a43d9",
+  "hashes": {
+    "sdf_field": "cf8d925ef1e006c6a05406b40f477435380db002fecbf4ec1fc31d10a4aaff2c",
+    "influence_field": "abf6a168e8a39bbbf6f47d784efe0526dd4088866d6135ae38d144b44dc4a9f5",
+    "meta": "1356bbdcae692d396150e7d13e5d84221117dc79265dbc23526610ab57676775",
+    "color_coord_field": "83442d42bda33aa962abc3e44f5c4a61f3e24981d0d8645bfa568ddb265d3e3f"
+  },
+  "files": {
+    "sdf_field": "data/shader_fields/raster/sp500_bubbles_1920x1080_ee19916a43d9_sdf.tiff",
+    "influence_field": "data/shader_fields/raster/sp500_bubbles_1920x1080_ee19916a43d9_influence.tiff",
+    "meta": "data/shader_fields/raster/sp500_bubbles_1920x1080_ee19916a43d9_meta.json",
+    "color_coord_field": "data/shader_fields/raster/sp500_bubbles_1920x1080_ee19916a43d9_colorcoord.tiff"
+  }
+}

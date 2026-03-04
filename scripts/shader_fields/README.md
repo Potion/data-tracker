@@ -102,3 +102,89 @@ This is meant for pragmatic visual exploration: strokes, glow masks, layered ble
 - `--sigma-px <float>`
 - `--flip-y` / `--no-flip-y`
 
+## Raster Field Preprocessor (SDF + Influence)
+
+For dataset-driven shape stamping and offline field generation (to avoid realtime per-shape loops), use:
+
+`scripts/shader_fields/build_raster_fields.py`
+
+### Input schema
+
+Input can be `.json` (array of records or `{ "records": [...] }`) or `.csv`.
+
+Each record:
+
+- required: `x`, `y`
+- optional: `radius`, `weight`, `intensity`, `shape`, `color_coord`
+
+`shape` currently supports:
+- `circle` (default)
+- `square` (example extension path)
+
+Unknown shapes fall back to the configured default shape and are counted in metadata.
+
+### Processing stages
+
+1. Raster stage (fixed `WIDTH x HEIGHT`)
+- map dataset coordinates to pixel domain
+- stamp occupancy seeds (union behavior for shape silhouette)
+- stamp additive influence seeds (weighted accumulation for glow/body)
+- optional color coordinate accumulation
+
+2. Distance stage
+- build signed distance from occupancy mask
+- sign convention: **negative inside**, **positive outside**
+- configurable units (`pixels` or normalized `uv`) and optional clipping normalization
+
+### Output files and ranges
+
+With explicit width/height and deterministic build signature:
+
+- `<prefix>_<WIDTH>x<HEIGHT>_<sig>_sdf.tiff|npy`
+- `<prefix>_<WIDTH>x<HEIGHT>_<sig>_influence.tiff|npy`
+- optional `<prefix>_<WIDTH>x<HEIGHT>_<sig>_colorcoord.tiff|npy`
+- `<prefix>_<WIDTH>x<HEIGHT>_<sig>_meta.json`
+- optional `<prefix>_<WIDTH>x<HEIGHT>_<sig>_hashes.json`
+
+Field semantics:
+
+- `sdfField`: signed distance field; union-like merged silhouettes from overlaps
+- `influenceField`: additive soft energy; overlap regions rise in intensity
+- `colorCoordField` (optional): weighted scalar coordinate for palette mapping
+
+### Example invocation (explicit WIDTH/HEIGHT)
+
+```bash
+python scripts/shader_fields/build_raster_fields.py \
+  --input scripts/shader_fields/fixtures/overlap_points.json \
+  --config scripts/shader_fields/pipeline_config.example.json \
+  --width 1920 \
+  --height 1080 \
+  --out-dir data/shader_fields/raster \
+  --prefix bubbles
+```
+
+Directly from existing raw dataset folder (no intermediate record conversion):
+
+```bash
+python scripts/shader_fields/build_raster_fields.py \
+  --input-dir data/raw_json/35_years_s_p_500_daily \
+  --config scripts/shader_fields/pipeline_config.example.json \
+  --width 1920 \
+  --height 1080 \
+  --out-dir data/shader_fields/raster \
+  --prefix sp500_bubbles
+```
+
+### Deterministic validation script
+
+```bash
+python scripts/shader_fields/validate_raster_fields.py
+```
+
+Validation checks:
+- output dimensions exactly match `WIDTH`/`HEIGHT`
+- deterministic hashes for same input + params
+- overlapping circles merge in SDF silhouette
+- influence increases in overlap regions
+- arbitrary shape path works (square + unknown-shape fallback scaffold)

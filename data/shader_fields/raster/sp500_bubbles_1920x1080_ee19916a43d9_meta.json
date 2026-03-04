@@ -1,0 +1,92 @@
+{
+  "prefix": "sp500_bubbles",
+  "width": 1920,
+  "height": 1080,
+  "coord_domain": {
+    "x_min": -150.84,
+    "x_max": 2664.84,
+    "y_min": 1590.5988,
+    "y_max": 7283.5812000000005
+  },
+  "raster_stats": {
+    "input_records": 2515,
+    "valid_records": 2515,
+    "unknown_shape_fallbacks": 0
+  },
+  "sdf": {
+    "units": "pixels",
+    "range": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "sign_convention": "negative_inside_positive_outside"
+  },
+  "influence": {
+    "range": {
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "color_coord": {
+    "enabled": true,
+    "range": {
+      "min": 0.0,
+      "max": 1.0
+    }
+  },
+  "config_snapshot": {
+    "coord_domain": {
+      "auto": true,
+      "padding_ratio": 0.06,
+      "x_min": null,
+      "x_max": null,
+      "y_min": null,
+      "y_max": null
+    },
+    "raster": {
+      "default_shape": "circle",
+      "radius_scale": 1.0,
+      "default_radius_px": 26.0,
+      "max_stamp_radius_px": 180.0,
+      "influence_falloff_sigma_px": 22.0
+    },
+    "sdf": {
+      "distance_units": "pixels",
+      "normalize_mode": "clip_scale",
+      "clip_distance_px": 96.0
+    },
+    "influence": {
+      "post_blur_sigma_px": 2.5,
+      "normalize_mode": "percentile_clip",
+      "percentile_hi": 99.5
+    },
+    "color_coord": {
+      "enabled": true,
+      "default_value": 0.5
+    },
+    "output": {
+      "format": "tiff-f16",
+      "include_hash_manifest": true
+    },
+    "series_mapping": {
+      "shape": "circle",
+      "base_radius_px": 8.0,
+      "radius_from_abs_return_scale": 1400.0,
+      "base_weight": 1.0,
+      "weight_from_abs_return_scale": 90.0,
+      "color_coord_from_abs_return_scale": 20.0,
+      "min_radius_px": 2.0,
+      "max_radius_px": 64.0
+    }
+  },
+  "input_path": "data/raw_json/35_years_s_p_500_daily",
+  "source_mode": "raw_series_dir",
+  "record_signature": "e4706abf25e9acf9780acb81d369485e77346c1a1b7bae23795623310dc2075e",
+  "config_signature": "22db61c36de9616e1bfc19e19c883b23f34e6b48e6dfcb43acac53e94474cc99",
+  "build_signature": "ee19916a43d9",
+  "outputs": {
+    "sdf_field": "data/shader_fields/raster/sp500_bubbles_1920x1080_ee19916a43d9_sdf.tiff",
+    "influence_field": "data/shader_fields/raster/sp500_bubbles_1920x1080_ee19916a43d9_influence.tiff",
+    "color_coord_field": "data/shader_fields/raster/sp500_bubbles_1920x1080_ee19916a43d9_colorcoord.tiff"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "group": "35 Years",
+    "dataset_name": "Retirement Expenses (Age 65+)",
+    "source_type": "fred",
+    "dataset_id": "CXUTOTALEXPLB0407M",
+    "start_year": 1995,
+    "end_year": 2026
+  },
+  "year": 2010,
+  "request": {
+    "url": "https://api.stlouisfed.org/fred/series/observations?series_id=CXUTOTALEXPLB0407M&api_key=bbd69897c3a2363528a3395cf277ab43&file_type=json&observation_start=2010-01-01&observation_end=2010-12-31",
+    "status_code": 200
+  },
+  "status": "ok",
+  "error_type": "",
+  "recommended_action": "none",
+  "message": "Success",
+  "response": {
+    "realtime_start": "2026-02-17",
+    "realtime_end": "2026-02-17",
+    "observation_start": "2010-01-01",
+    "observation_end": "2010-12-31",
+    "units": "lin",
+    "output_type": 1,
+    "file_type": "json",
+    "order_by": "observation_date",
+    "sort_order": "asc",
+    "count": 1,
+    "offset": 0,
+    "limit": 100000,
+    "observations": [
+      {
+        "realtime_start": "2026-02-17",
+        "realtime_end": "2026-02-17",
+        "date": "2010-01-01",
+        "value": "36802"
+      }
+    ]
+  }
+}

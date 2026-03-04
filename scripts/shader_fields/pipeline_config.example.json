@@ -1,0 +1,35 @@
+{
+  "coord_domain": {
+    "auto": true,
+    "padding_ratio": 0.06,
+    "x_min": null,
+    "x_max": null,
+    "y_min": null,
+    "y_max": null
+  },
+  "raster": {
+    "default_shape": "circle",
+    "radius_scale": 1.0,
+    "default_radius_px": 26.0,
+    "max_stamp_radius_px": 180.0,
+    "influence_falloff_sigma_px": 22.0
+  },
+  "sdf": {
+    "distance_units": "pixels",
+    "normalize_mode": "clip_scale",
+    "clip_distance_px": 96.0
+  },
+  "influence": {
+    "post_blur_sigma_px": 2.5,
+    "normalize_mode": "percentile_clip",
+    "percentile_hi": 99.5
+  },
+  "color_coord": {
+    "enabled": true,
+    "default_value": 0.5
+  },
+  "output": {
+    "format": "tiff-f16",
+    "include_hash_manifest": true
+  }
+}
